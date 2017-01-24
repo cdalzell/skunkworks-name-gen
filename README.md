@@ -6,4 +6,8 @@ Perfect example: [HAVE BLUE](https://en.wikipedia.org/wiki/Lockheed_Have_Blue)
 
 You can now find a generator for such things here: <https://cdalzell.github.io/skunkworks-name-gen/>
 
-Tons of help accumulating the word lists from data provided by <https://rattanji.blogspot.com/>.
+Word Lists:
+* Princeton University "About WordNet." WordNet. Princeton University. 2010. <http://wordnet.princeton.edu>
+* <https://rattanji.blogspot.com/>
+
+Bootstrap theme is [Cerulean](https://bootswatch.com/cerulean/) as found at <https://bootswatch.com/>
