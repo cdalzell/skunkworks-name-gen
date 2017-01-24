@@ -42,5 +42,7 @@ $(document).ready(function docReady() {
         const projectName = generateProjectName(wordLists);
 
         $('#project-name').text(projectName);
+
+        ga('send', 'event', 'Generate Button', 'generate', projectName);
     });
 });
