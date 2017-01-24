@@ -36,8 +36,6 @@ function generateProjectName(wordLists) {
 }
 
 $(document).ready(function docReady() {
-    $('#project-name').text('HAVE BLUE');
-
     const wordLists = buildWordLists();
 
     $("#generate").click(function handleGenerateClick() {

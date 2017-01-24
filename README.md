@@ -4,6 +4,6 @@ Every good **_SUPER SECRET PROJECT_** needs a good mysterious sounding name that
 
 Perfect example: [HAVE BLUE](https://en.wikipedia.org/wiki/Lockheed_Have_Blue)
 
-If and when I ever wrap this up, you'll be able to find a generator for such things here: <https://cdalzell.github.io/skunkworks-name-gen/>
+You can now find a generator for such things here: <https://cdalzell.github.io/skunkworks-name-gen/>
 
 Tons of help accumulating the word lists from data provided by <https://rattanji.blogspot.com/>.
