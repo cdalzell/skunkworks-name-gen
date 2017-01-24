@@ -1,15 +1,61 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <style>
-        h1 {text-align:center;}
-        </style>
-    </head>
-    <body>
-        <h1>Nothing to see here yet.. Nothing at all..</h1>
-        <br>
-        <center>
-            <img align="middle" src="img/skunk_works.png">
-        </center>
-        <!-- https://youtu.be/QnXPqUU6fI0?t=51s -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <title>Skunkworks Project Name Generator</title>
+
+      <!-- Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <style type="text/css">
+          body { text-align:center; }
+      </style>
+
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+      <div class="container">
+          <div class="row">
+              <div class="span12">
+                  <div class="page-header">
+                      <h1>Skunkworks Project Name Generator</h1>
+                  </div>
+                  <p class="lead">Every good <b>SUPER SECRET PROJECT</b> needs a mysterious sounding name that doesn't betray its actual nature.</p>
+            </div>
+        </div>
+        
+        <div id="input" class="row">
+             <div class="span12">
+                <form>
+                    <input id="generate" type="button" class="btn btn-primary btn-lg" value="GENERATE" />
+                </form>
+            </div>
+            <div class="span12">
+                <br/>
+                <h1 id="project-name"><b>HAVE BLUE</b></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js">/** v 3.3.7 */</script>
+
+    <!-- site specific stuff -->
+    <script src="js/data/adjectives.js"></script>
+    <script src="js/data/adverbs.js"></script>
+    <script src="js/data/alphabet.js"></script>
+    <script src="js/data/verbs.js"></script>
+    <script src="js/generator.js"></script>
+
     </body>
+    <!-- https://youtu.be/QnXPqUU6fI0?t=51s -->
 </html>
